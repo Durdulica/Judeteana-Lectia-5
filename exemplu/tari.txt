@@ -1,0 +1,10 @@
+﻿Tara#Capitala#Continent#Steag
+Romania#Bucuresti#Europa#romania.png
+Franta#Paris#Europa#franta.png
+Italia#Roma#Europa#italia.png
+Belgia#Bruxelles#Europa#belgia.png
+Irlanda#Dublin#Europa#irlanda.png
+Nigeria#Abuja#Africa#nigeria.png
+Mali#Bamako#Africa#mali.png
+Guineea#Conakry#Africa#guineea.png
+Peru#Lima#America#peru.png

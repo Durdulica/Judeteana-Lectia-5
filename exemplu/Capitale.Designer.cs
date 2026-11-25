@@ -1,0 +1,378 @@
+﻿namespace ExempluControale
+{
+    partial class Capitale
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.mnuPrincipal = new System.Windows.Forms.MenuStrip();
+            this.mnuAplicatie = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuGalerie = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuQuiz = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSetari = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuRezultat = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.mnuIesire = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuAjutor = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDespre = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabPagini = new System.Windows.Forms.TabControl();
+            this.tabGalerie = new System.Windows.Forms.TabPage();
+            this.picGalerie = new System.Windows.Forms.PictureBox();
+            this.lblTara = new System.Windows.Forms.Label();
+            this.btnInapoi = new System.Windows.Forms.Button();
+            this.btnInainte = new System.Windows.Forms.Button();
+            this.prgGalerie = new System.Windows.Forms.ProgressBar();
+            this.tabQuiz = new System.Windows.Forms.TabPage();
+            this.lblScor = new System.Windows.Forms.Label();
+            this.lblVieti = new System.Windows.Forms.Label();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.lblIntrebare = new System.Windows.Forms.Label();
+            this.grpVariante = new System.Windows.Forms.GroupBox();
+            this.rdbA = new System.Windows.Forms.RadioButton();
+            this.rdbB = new System.Windows.Forms.RadioButton();
+            this.rdbC = new System.Windows.Forms.RadioButton();
+            this.btnRaspunde = new System.Windows.Forms.Button();
+            this.btnUrmatoarea = new System.Windows.Forms.Button();
+            this.tabSetari = new System.Windows.Forms.TabPage();
+            this.lblContinent = new System.Windows.Forms.Label();
+            this.cmbContinent = new System.Windows.Forms.ComboBox();
+            this.lblTaraAleasa = new System.Windows.Forms.Label();
+            this.cmbTara = new System.Windows.Forms.ComboBox();
+            this.picTara = new System.Windows.Forms.PictureBox();
+            this.lblData = new System.Windows.Forms.Label();
+            this.dtpData = new System.Windows.Forms.DateTimePicker();
+            this.lblIntrebari = new System.Windows.Forms.Label();
+            this.trkIntrebari = new System.Windows.Forms.TrackBar();
+            this.mnuPrincipal.SuspendLayout();
+            this.tabPagini.SuspendLayout();
+            this.tabGalerie.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picGalerie)).BeginInit();
+            this.tabQuiz.SuspendLayout();
+            this.grpVariante.SuspendLayout();
+            this.tabSetari.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTara)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trkIntrebari)).BeginInit();
+            this.SuspendLayout();
+            this.mnuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuAplicatie,
+            this.mnuAjutor});
+            this.mnuPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.mnuPrincipal.Name = "mnuPrincipal";
+            this.mnuPrincipal.Size = new System.Drawing.Size(560, 25);
+            this.mnuPrincipal.TabIndex = 0;
+            this.mnuAplicatie.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuGalerie,
+            this.mnuQuiz,
+            this.mnuSetari,
+            this.mnuRezultat,
+            this.mnuSeparator,
+            this.mnuIesire});
+            this.mnuAplicatie.Name = "mnuAplicatie";
+            this.mnuAplicatie.Text = "Aplicatie";
+            this.mnuGalerie.Name = "mnuGalerie";
+            this.mnuGalerie.Text = "Galerie";
+            this.mnuGalerie.Click += new System.EventHandler(this.mnuGalerie_Click);
+            this.mnuQuiz.Name = "mnuQuiz";
+            this.mnuQuiz.Text = "Quiz";
+            this.mnuQuiz.Click += new System.EventHandler(this.mnuQuiz_Click);
+            this.mnuSetari.Name = "mnuSetari";
+            this.mnuSetari.Text = "Setari";
+            this.mnuSetari.Click += new System.EventHandler(this.mnuSetari_Click);
+            this.mnuRezultat.Name = "mnuRezultat";
+            this.mnuRezultat.Text = "Rezultat";
+            this.mnuRezultat.Click += new System.EventHandler(this.mnuRezultat_Click);
+            this.mnuSeparator.Name = "mnuSeparator";
+            this.mnuIesire.Name = "mnuIesire";
+            this.mnuIesire.Text = "Iesire";
+            this.mnuIesire.Click += new System.EventHandler(this.mnuIesire_Click);
+            this.mnuAjutor.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuDespre});
+            this.mnuAjutor.Name = "mnuAjutor";
+            this.mnuAjutor.Text = "Ajutor";
+            this.mnuDespre.Name = "mnuDespre";
+            this.mnuDespre.Text = "Despre";
+            this.mnuDespre.Click += new System.EventHandler(this.mnuDespre_Click);
+            this.tabPagini.Controls.Add(this.tabGalerie);
+            this.tabPagini.Controls.Add(this.tabQuiz);
+            this.tabPagini.Controls.Add(this.tabSetari);
+            this.tabPagini.Location = new System.Drawing.Point(12, 34);
+            this.tabPagini.Name = "tabPagini";
+            this.tabPagini.SelectedIndex = 0;
+            this.tabPagini.Size = new System.Drawing.Size(536, 324);
+            this.tabPagini.TabIndex = 1;
+            this.tabGalerie.Controls.Add(this.picGalerie);
+            this.tabGalerie.Controls.Add(this.lblTara);
+            this.tabGalerie.Controls.Add(this.btnInapoi);
+            this.tabGalerie.Controls.Add(this.btnInainte);
+            this.tabGalerie.Controls.Add(this.prgGalerie);
+            this.tabGalerie.Location = new System.Drawing.Point(4, 26);
+            this.tabGalerie.Name = "tabGalerie";
+            this.tabGalerie.Padding = new System.Windows.Forms.Padding(3);
+            this.tabGalerie.Size = new System.Drawing.Size(528, 294);
+            this.tabGalerie.TabIndex = 0;
+            this.tabGalerie.Text = "Galerie";
+            this.tabGalerie.UseVisualStyleBackColor = true;
+            this.picGalerie.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picGalerie.Location = new System.Drawing.Point(16, 16);
+            this.picGalerie.Name = "picGalerie";
+            this.picGalerie.Size = new System.Drawing.Size(240, 160);
+            this.picGalerie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picGalerie.TabIndex = 0;
+            this.picGalerie.TabStop = false;
+            this.lblTara.AutoSize = true;
+            this.lblTara.Location = new System.Drawing.Point(16, 188);
+            this.lblTara.Name = "lblTara";
+            this.lblTara.Text = "-";
+            this.btnInapoi.Location = new System.Drawing.Point(16, 216);
+            this.btnInapoi.Name = "btnInapoi";
+            this.btnInapoi.Size = new System.Drawing.Size(112, 30);
+            this.btnInapoi.TabIndex = 1;
+            this.btnInapoi.Text = "Inapoi";
+            this.btnInapoi.UseVisualStyleBackColor = true;
+            this.btnInapoi.Click += new System.EventHandler(this.btnInapoi_Click);
+            this.btnInainte.Location = new System.Drawing.Point(144, 216);
+            this.btnInainte.Name = "btnInainte";
+            this.btnInainte.Size = new System.Drawing.Size(112, 30);
+            this.btnInainte.TabIndex = 2;
+            this.btnInainte.Text = "Inainte";
+            this.btnInainte.UseVisualStyleBackColor = true;
+            this.btnInainte.Click += new System.EventHandler(this.btnInainte_Click);
+            this.prgGalerie.Location = new System.Drawing.Point(16, 258);
+            this.prgGalerie.Name = "prgGalerie";
+            this.prgGalerie.Size = new System.Drawing.Size(240, 18);
+            this.prgGalerie.TabIndex = 3;
+            this.tabQuiz.Controls.Add(this.lblScor);
+            this.tabQuiz.Controls.Add(this.lblVieti);
+            this.tabQuiz.Controls.Add(this.btnStart);
+            this.tabQuiz.Controls.Add(this.lblIntrebare);
+            this.tabQuiz.Controls.Add(this.grpVariante);
+            this.tabQuiz.Controls.Add(this.btnRaspunde);
+            this.tabQuiz.Controls.Add(this.btnUrmatoarea);
+            this.tabQuiz.Location = new System.Drawing.Point(4, 26);
+            this.tabQuiz.Name = "tabQuiz";
+            this.tabQuiz.Padding = new System.Windows.Forms.Padding(3);
+            this.tabQuiz.Size = new System.Drawing.Size(528, 294);
+            this.tabQuiz.TabIndex = 1;
+            this.tabQuiz.Text = "Quiz";
+            this.tabQuiz.UseVisualStyleBackColor = true;
+            this.lblScor.AutoSize = true;
+            this.lblScor.Location = new System.Drawing.Point(16, 18);
+            this.lblScor.Name = "lblScor";
+            this.lblScor.Text = "Scor: 0";
+            this.lblVieti.AutoSize = true;
+            this.lblVieti.Location = new System.Drawing.Point(120, 18);
+            this.lblVieti.Name = "lblVieti";
+            this.lblVieti.Text = "Vieti: 0";
+            this.btnStart.Location = new System.Drawing.Point(380, 12);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(130, 30);
+            this.btnStart.TabIndex = 0;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            this.lblIntrebare.AutoSize = true;
+            this.lblIntrebare.Location = new System.Drawing.Point(16, 58);
+            this.lblIntrebare.Name = "lblIntrebare";
+            this.lblIntrebare.Text = "Apasa Start.";
+            this.grpVariante.Controls.Add(this.rdbA);
+            this.grpVariante.Controls.Add(this.rdbB);
+            this.grpVariante.Controls.Add(this.rdbC);
+            this.grpVariante.Enabled = false;
+            this.grpVariante.Location = new System.Drawing.Point(16, 88);
+            this.grpVariante.Name = "grpVariante";
+            this.grpVariante.Size = new System.Drawing.Size(300, 130);
+            this.grpVariante.TabIndex = 1;
+            this.grpVariante.TabStop = false;
+            this.grpVariante.Text = "Variante";
+            this.rdbA.AutoSize = true;
+            this.rdbA.Location = new System.Drawing.Point(16, 28);
+            this.rdbA.Name = "rdbA";
+            this.rdbA.TabIndex = 0;
+            this.rdbA.Text = "A";
+            this.rdbA.CheckedChanged += new System.EventHandler(this.Varianta_CheckedChanged);
+            this.rdbB.AutoSize = true;
+            this.rdbB.Location = new System.Drawing.Point(16, 60);
+            this.rdbB.Name = "rdbB";
+            this.rdbB.TabIndex = 1;
+            this.rdbB.Text = "B";
+            this.rdbB.CheckedChanged += new System.EventHandler(this.Varianta_CheckedChanged);
+            this.rdbC.AutoSize = true;
+            this.rdbC.Location = new System.Drawing.Point(16, 92);
+            this.rdbC.Name = "rdbC";
+            this.rdbC.TabIndex = 2;
+            this.rdbC.Text = "C";
+            this.rdbC.CheckedChanged += new System.EventHandler(this.Varianta_CheckedChanged);
+            this.btnRaspunde.Enabled = false;
+            this.btnRaspunde.Location = new System.Drawing.Point(340, 120);
+            this.btnRaspunde.Name = "btnRaspunde";
+            this.btnRaspunde.Size = new System.Drawing.Size(130, 30);
+            this.btnRaspunde.TabIndex = 2;
+            this.btnRaspunde.Text = "Raspunde";
+            this.btnRaspunde.UseVisualStyleBackColor = true;
+            this.btnRaspunde.Click += new System.EventHandler(this.btnRaspunde_Click);
+            this.btnUrmatoarea.Enabled = false;
+            this.btnUrmatoarea.Location = new System.Drawing.Point(340, 160);
+            this.btnUrmatoarea.Name = "btnUrmatoarea";
+            this.btnUrmatoarea.Size = new System.Drawing.Size(130, 30);
+            this.btnUrmatoarea.TabIndex = 3;
+            this.btnUrmatoarea.Text = "Urmatoarea";
+            this.btnUrmatoarea.UseVisualStyleBackColor = true;
+            this.btnUrmatoarea.Click += new System.EventHandler(this.btnUrmatoarea_Click);
+            this.tabSetari.Controls.Add(this.lblContinent);
+            this.tabSetari.Controls.Add(this.cmbContinent);
+            this.tabSetari.Controls.Add(this.lblTaraAleasa);
+            this.tabSetari.Controls.Add(this.cmbTara);
+            this.tabSetari.Controls.Add(this.picTara);
+            this.tabSetari.Controls.Add(this.lblData);
+            this.tabSetari.Controls.Add(this.dtpData);
+            this.tabSetari.Controls.Add(this.lblIntrebari);
+            this.tabSetari.Controls.Add(this.trkIntrebari);
+            this.tabSetari.Location = new System.Drawing.Point(4, 26);
+            this.tabSetari.Name = "tabSetari";
+            this.tabSetari.Padding = new System.Windows.Forms.Padding(3);
+            this.tabSetari.Size = new System.Drawing.Size(528, 294);
+            this.tabSetari.TabIndex = 2;
+            this.tabSetari.Text = "Setari";
+            this.tabSetari.UseVisualStyleBackColor = true;
+            this.lblContinent.AutoSize = true;
+            this.lblContinent.Location = new System.Drawing.Point(16, 20);
+            this.lblContinent.Name = "lblContinent";
+            this.lblContinent.Text = "Continent:";
+            this.cmbContinent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbContinent.FormattingEnabled = true;
+            this.cmbContinent.Items.AddRange(new object[] {
+            "Toate",
+            "Europa",
+            "Africa",
+            "America"});
+            this.cmbContinent.Location = new System.Drawing.Point(110, 16);
+            this.cmbContinent.Name = "cmbContinent";
+            this.cmbContinent.Size = new System.Drawing.Size(180, 25);
+            this.cmbContinent.TabIndex = 0;
+            this.cmbContinent.SelectedIndexChanged += new System.EventHandler(this.cmbContinent_SelectedIndexChanged);
+            this.lblTaraAleasa.AutoSize = true;
+            this.lblTaraAleasa.Location = new System.Drawing.Point(16, 56);
+            this.lblTaraAleasa.Name = "lblTaraAleasa";
+            this.lblTaraAleasa.Text = "Tara:";
+            this.cmbTara.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTara.FormattingEnabled = true;
+            this.cmbTara.Location = new System.Drawing.Point(110, 52);
+            this.cmbTara.Name = "cmbTara";
+            this.cmbTara.Size = new System.Drawing.Size(180, 25);
+            this.cmbTara.TabIndex = 1;
+            this.cmbTara.SelectedIndexChanged += new System.EventHandler(this.cmbTara_SelectedIndexChanged);
+            this.picTara.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picTara.Location = new System.Drawing.Point(320, 16);
+            this.picTara.Name = "picTara";
+            this.picTara.Size = new System.Drawing.Size(180, 120);
+            this.picTara.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTara.TabIndex = 2;
+            this.picTara.TabStop = false;
+            this.lblData.AutoSize = true;
+            this.lblData.Location = new System.Drawing.Point(16, 92);
+            this.lblData.Name = "lblData";
+            this.lblData.Text = "Data:";
+            this.dtpData.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpData.Location = new System.Drawing.Point(110, 88);
+            this.dtpData.Name = "dtpData";
+            this.dtpData.Size = new System.Drawing.Size(180, 25);
+            this.dtpData.TabIndex = 3;
+            this.lblIntrebari.AutoSize = true;
+            this.lblIntrebari.Location = new System.Drawing.Point(16, 150);
+            this.lblIntrebari.Name = "lblIntrebari";
+            this.lblIntrebari.Text = "Intrebari pe runda: 5";
+            this.trkIntrebari.LargeChange = 1;
+            this.trkIntrebari.Location = new System.Drawing.Point(16, 176);
+            this.trkIntrebari.Maximum = 9;
+            this.trkIntrebari.Minimum = 1;
+            this.trkIntrebari.Name = "trkIntrebari";
+            this.trkIntrebari.Size = new System.Drawing.Size(274, 45);
+            this.trkIntrebari.TabIndex = 4;
+            this.trkIntrebari.Value = 5;
+            this.trkIntrebari.ValueChanged += new System.EventHandler(this.trkIntrebari_ValueChanged);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(560, 370);
+            this.Controls.Add(this.tabPagini);
+            this.Controls.Add(this.mnuPrincipal);
+            this.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MainMenuStrip = this.mnuPrincipal;
+            this.MaximizeBox = false;
+            this.Name = "Capitale";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Capitale";
+            this.Load += new System.EventHandler(this.Capitale_Load);
+            this.mnuPrincipal.ResumeLayout(false);
+            this.mnuPrincipal.PerformLayout();
+            this.tabPagini.ResumeLayout(false);
+            this.tabGalerie.ResumeLayout(false);
+            this.tabGalerie.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picGalerie)).EndInit();
+            this.tabQuiz.ResumeLayout(false);
+            this.tabQuiz.PerformLayout();
+            this.grpVariante.ResumeLayout(false);
+            this.grpVariante.PerformLayout();
+            this.tabSetari.ResumeLayout(false);
+            this.tabSetari.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTara)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trkIntrebari)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip mnuPrincipal;
+        private System.Windows.Forms.ToolStripMenuItem mnuAplicatie;
+        private System.Windows.Forms.ToolStripMenuItem mnuGalerie;
+        private System.Windows.Forms.ToolStripMenuItem mnuQuiz;
+        private System.Windows.Forms.ToolStripMenuItem mnuSetari;
+        private System.Windows.Forms.ToolStripMenuItem mnuRezultat;
+        private System.Windows.Forms.ToolStripSeparator mnuSeparator;
+        private System.Windows.Forms.ToolStripMenuItem mnuIesire;
+        private System.Windows.Forms.ToolStripMenuItem mnuAjutor;
+        private System.Windows.Forms.ToolStripMenuItem mnuDespre;
+        private System.Windows.Forms.TabControl tabPagini;
+        private System.Windows.Forms.TabPage tabGalerie;
+        private System.Windows.Forms.PictureBox picGalerie;
+        private System.Windows.Forms.Label lblTara;
+        private System.Windows.Forms.Button btnInapoi;
+        private System.Windows.Forms.Button btnInainte;
+        private System.Windows.Forms.ProgressBar prgGalerie;
+        private System.Windows.Forms.TabPage tabQuiz;
+        private System.Windows.Forms.Label lblScor;
+        private System.Windows.Forms.Label lblVieti;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Label lblIntrebare;
+        private System.Windows.Forms.GroupBox grpVariante;
+        private System.Windows.Forms.RadioButton rdbA;
+        private System.Windows.Forms.RadioButton rdbB;
+        private System.Windows.Forms.RadioButton rdbC;
+        private System.Windows.Forms.Button btnRaspunde;
+        private System.Windows.Forms.Button btnUrmatoarea;
+        private System.Windows.Forms.TabPage tabSetari;
+        private System.Windows.Forms.Label lblContinent;
+        private System.Windows.Forms.ComboBox cmbContinent;
+        private System.Windows.Forms.Label lblTaraAleasa;
+        private System.Windows.Forms.ComboBox cmbTara;
+        private System.Windows.Forms.PictureBox picTara;
+        private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.DateTimePicker dtpData;
+        private System.Windows.Forms.Label lblIntrebari;
+        private System.Windows.Forms.TrackBar trkIntrebari;
+    }
+}
